@@ -224,7 +224,7 @@
 
     .vyoma-developed {
         flex-direction: column;
-
+          justify-content: center;
         gap: 4px;
 
         font-size: 12px;
