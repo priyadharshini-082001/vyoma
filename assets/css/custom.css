@@ -2534,3 +2534,2536 @@
         line-height: 1.7;
     }
 }
+
+/* =========================================================
+   TUITION SECTION - NATURAL PROFESSIONAL STYLE
+========================================================= */
+
+.tuition-section {
+    width: 100%;
+    padding: 70px 20px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
+
+.tuition-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 50px;
+    align-items: stretch;
+}
+
+
+/* =========================================================
+   IMAGE - EQUAL HEIGHT WITH CONTENT
+========================================================= */
+
+.tuition-image {
+    width: 100%;
+    height: 100%;
+    min-height: 650px;
+
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.tuition-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.tuition-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 10px 0;
+}
+
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.tuition-tag {
+    display: inline-block;
+
+    width: fit-content;
+
+    padding: 7px 16px;
+
+    margin-bottom: 14px;
+
+    border-radius: 30px;
+
+    background: #e51d73;
+    color: #ffffff;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+}
+
+
+/* =========================================================
+   MAIN HEADING
+========================================================= */
+
+.tuition-content h2 {
+    margin: 0 0 20px;
+
+    color: #04245c;
+
+    font-size: 34px;
+    line-height: 1.3;
+
+    font-weight: 800;
+}
+
+.tuition-content h2 span {
+    display: block;
+
+    color: #e51d73;
+}
+
+
+/* =========================================================
+   PARAGRAPH
+========================================================= */
+
+.tuition-content p {
+    margin: 0 0 16px;
+
+    color: #111111;
+
+    font-size: 17px;
+    line-height: 1.8;
+
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   APPROACH
+========================================================= */
+
+.tuition-approach {
+    margin-top: 12px;
+}
+
+.tuition-approach h3 {
+    margin: 0 0 15px;
+
+    color: #04245c;
+
+    font-size: 23px;
+    font-weight: 750;
+}
+
+
+/* =========================================================
+   POINTS
+========================================================= */
+
+.tuition-points {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+
+.tuition-point {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 11px 13px;
+
+    background: #f7f9fc;
+
+    border: 1px solid #e5e8ed;
+
+    border-radius: 9px;
+
+    transition: 0.3s ease;
+}
+
+
+.tuition-point:hover {
+    transform: translateY(-2px);
+
+    border-color: #e51d73;
+
+    background: #ffffff;
+}
+
+
+.tuition-point i {
+    width: 50px;
+    height:50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 7px;
+
+    background: #edf3ff;
+
+    color: #073b8f;
+
+    font-size: 25px;
+}
+
+
+.tuition-point span {
+    color: #222222;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   BATCH SECTION
+========================================================= */
+
+.tuition-batches {
+    max-width: 1200px;
+
+    margin: 55px auto 0;
+
+    padding: 38px;
+
+    border-radius: 18px;
+
+    background: linear-gradient(
+        135deg,
+        #04245c,
+        #073b8f
+    );
+
+    box-shadow: 0 12px 30px rgba(4,36,92,0.15);
+}
+
+
+/* =========================================================
+   BATCH HEADING
+========================================================= */
+
+.batch-heading {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.batch-heading span {
+    color: #ff9ac5;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.batch-heading h3 {
+    margin: 7px 0;
+
+    color: #ffffff;
+
+    font-size: 28px;
+}
+
+.batch-heading p {
+    margin: 0;
+
+    color: rgba(255,255,255,0.8);
+
+    font-size: 18px;
+}
+
+
+/* =========================================================
+   BATCH CARDS
+========================================================= */
+
+.batch-list {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.batch-card {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 18px;
+
+    background: rgba(255,255,255,0.10);
+
+    border: 1px solid rgba(255,255,255,0.18);
+
+    border-radius: 12px;
+}
+
+.batch-icon {
+    width: 45px;
+    height: 45px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #e51d73;
+
+    color: #ffffff;
+}
+
+.batch-card small {
+    display: block;
+
+    margin-bottom: 4px;
+
+    color: #ff9ac5;
+
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.batch-card strong {
+    color: #ffffff;
+
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .tuition-container {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .tuition-image {
+        min-height: 420px;
+        height: 420px;
+    }
+
+    .tuition-content {
+        padding: 0;
+    }
+
+    .batch-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .tuition-section {
+        padding: 45px 15px;
+    }
+
+    .tuition-image {
+        min-height: 300px;
+        height: 300px;
+
+        border-radius: 14px;
+    }
+
+    .tuition-content h2 {
+        font-size: 27px;
+    }
+
+    .tuition-content p {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
+    .tuition-points {
+        grid-template-columns: 1fr;
+    }
+
+    .tuition-batches {
+        margin-top: 40px;
+
+        padding: 28px 18px;
+    }
+
+    .batch-heading h3 {
+        font-size: 24px;
+    }
+
+}
+
+/* =========================================================
+   YOGA BACKGROUND IMAGE SECTION
+========================================================= */
+
+.yoga-bg-section {
+    position: relative;
+
+    width: 100%;
+
+    padding: 85px 20px;
+
+    overflow: hidden;
+    background-color: white;
+}
+
+
+
+
+/* =========================================================
+   CONTAINER
+========================================================= */
+
+.yoga-bg-container {
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+
+/* =========================================================
+   TOP HEADING
+========================================================= */
+
+.yoga-bg-heading {
+    max-width: 800px;
+
+    margin: 0 auto 42px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.yoga-bg-heading span {
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+    color: #ff9ac5;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.yoga-bg-heading h2 {
+    margin: 0 0 12px;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+}
+
+
+.yoga-bg-heading p {
+    margin: 0;
+
+    color: rgba(0, 0, 0, 0.82);
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   MAIN WHITE CARD
+========================================================= */
+
+.yoga-bg-card {
+    display: grid;
+
+    grid-template-columns: 0.85fr 1.15fr;
+
+    min-height: 600px;
+
+    background: #ffffff;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+}
+
+
+/* =========================================================
+   PHOTO
+========================================================= */
+
+.yoga-bg-photo {
+    position: relative;
+
+    min-height: 600px;
+
+    overflow: hidden;
+}
+
+
+.yoga-bg-photo img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.7s ease;
+}
+
+
+.yoga-bg-photo:hover img {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   PHOTO CAPTION
+========================================================= */
+
+.yoga-photo-text {
+    position: absolute;
+
+    left: 22px;
+    right: 22px;
+    bottom: 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 15px 18px;
+
+    border-radius: 13px;
+
+    background: rgba(10,45,30,0.90);
+
+    color: #ffffff;
+
+    backdrop-filter: blur(8px);
+}
+
+
+.yoga-photo-text i {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e51d73;
+}
+
+
+.yoga-photo-text strong {
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.yoga-bg-content {
+    padding: 48px 45px;
+}
+
+
+.yoga-bg-content > p {
+    margin: 0 0 15px;
+
+    color: #111111;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+.yoga-bg-content h3 {
+    margin: 27px 0 17px;
+
+    color: #123b2a;
+
+    font-size: 25px;
+}
+
+
+/* =========================================================
+   FOCUS LIST
+========================================================= */
+
+.yoga-focus-list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+
+.yoga-focus-list div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 11px 12px;
+
+    border-radius: 9px;
+
+    background: #f4f8f5;
+
+    color: #222222;
+
+    font-size:15px;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+
+.yoga-focus-list div:hover {
+    transform: translateX(4px);
+
+    background: #ffffff;
+
+    border-color: #3c7957;
+}
+
+
+.yoga-focus-list i {
+    width:50px;
+    height:50px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 7px;
+
+    background: #e2f0e6;
+
+    color: #3c7957;
+
+    font-size:25px;
+}
+
+
+/* =========================================================
+   BENEFITS BOX
+========================================================= */
+
+.yoga-benefit-box {
+    margin-top: 45px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+}
+
+
+.yoga-benefit-title {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.yoga-benefit-title span {
+    color: #e51d73;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.yoga-benefit-title h3 {
+    margin: 6px 0 0;
+
+    color: #123b2a;
+
+    font-size: 28px;
+}
+
+
+/* =========================================================
+   BENEFIT ITEMS
+========================================================= */
+
+.yoga-benefit-items {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 12px;
+}
+
+
+.yoga-benefit-items div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    background: #f7faf8;
+
+    border: 1px solid #e4ebe6;
+    width:auto;
+}
+
+
+.yoga-benefit-items i {
+    color: #3c7957;
+
+    font-size: 18px;
+}
+
+
+.yoga-benefit-items span {
+    color: #222222;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   TIMING SECTION
+========================================================= */
+
+.yoga-bg-timings {
+    margin-top: 45px;
+
+    padding: 38px;
+
+    border-radius: 20px;
+
+    background: rgba(10,45,30,0.94);
+
+}
+
+
+.yoga-timing-heading {
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+.yoga-timing-heading span {
+    color: #ff9ac5;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.yoga-timing-heading h3 {
+    margin: 7px 0;
+
+    color: #ffffff;
+
+    font-size: 29px;
+}
+
+
+.yoga-timing-heading p {
+    margin: 0;
+
+    color: rgba(255,255,255,0.75);
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   TIME GRID
+========================================================= */
+
+.yoga-time-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+.yoga-time {
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid rgba(255,255,255,0.14);
+}
+
+
+.yoga-time small {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #ff9ac5;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+
+.yoga-time strong {
+    color: #ffffff;
+
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 950px) {
+
+    .yoga-bg-section {
+        background-attachment: scroll;
+    }
+
+    .yoga-bg-card {
+        grid-template-columns: 1fr;
+    }
+
+    .yoga-bg-photo {
+        min-height: 430px;
+    }
+
+    .yoga-benefit-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .yoga-bg-section {
+        padding: 55px 14px;
+    }
+
+    .yoga-bg-heading {
+        margin-bottom: 28px;
+    }
+
+    .yoga-bg-heading h2 {
+        font-size: 30px;
+    }
+
+    .yoga-bg-heading p {
+        font-size: 15px;
+    }
+
+    .yoga-bg-card {
+        border-radius: 17px;
+    }
+
+    .yoga-bg-photo {
+        min-height: 330px;
+    }
+
+    .yoga-bg-content {
+        padding: 28px 20px;
+    }
+
+    .yoga-bg-content > p {
+        font-size: 16px;
+
+        line-height: 1.75;
+    }
+
+    .yoga-focus-list {
+        grid-template-columns: 1fr;
+    }
+
+    .yoga-benefit-box {
+        padding: 25px 17px;
+
+        border-radius: 17px;
+    }
+
+    .yoga-benefit-title h3 {
+        font-size: 23px;
+    }
+
+    .yoga-benefit-items {
+        grid-template-columns: 1fr;
+    }
+
+    .yoga-bg-timings {
+        padding: 28px 17px;
+
+        border-radius: 17px;
+    }
+
+    .yoga-timing-heading h3 {
+        font-size: 24px;
+    }
+
+    .yoga-time-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* =========================================================
+   DANCE MODERN SECTION
+========================================================= */
+
+.dance-modern {
+    width: 100%;
+    padding: 80px 20px;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.dance-hero {
+    max-width: 1200px;
+
+    min-height: 570px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 0.9fr 1.1fr;
+
+    align-items: stretch;
+
+    border-radius: 30px;
+
+    overflow: hidden;
+
+    background: #071d49;
+
+
+}
+
+
+/* =========================================================
+   HERO CONTENT
+========================================================= */
+
+.dance-hero-content {
+    position: relative;
+
+    z-index: 2;
+
+    padding: 65px 50px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+
+.dance-eyebrow {
+    width: fit-content;
+
+    margin-bottom: 18px;
+
+    padding: 7px 15px;
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    border-radius: 30px;
+
+    color: #ff9ac5;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   HERO TITLE
+========================================================= */
+
+.dance-hero-content h2 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 68px;
+
+    line-height: 0.95;
+
+    font-weight: 900;
+
+    letter-spacing: -2px;
+}
+
+
+.dance-hero-content h2 span {
+    display: block;
+
+    color: #ff4d99;
+}
+
+
+.dance-hero-content p {
+    max-width: 470px;
+
+    margin: 25px 0 30px;
+
+    color: rgba(255,255,255,0.78);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   HERO META
+========================================================= */
+
+.dance-hero-meta {
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+
+.dance-hero-meta div {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 9px 13px;
+
+    border-radius: 8px;
+
+    background: rgba(255,255,255,0.08);
+
+    border: 1px solid rgba(255,255,255,0.12);
+
+    color: #ffffff;
+
+    font-size: 15px;
+}
+
+
+.dance-hero-meta i {
+    color: #ff4d99;
+}
+
+
+/* =========================================================
+   HERO IMAGE
+========================================================= */
+
+.dance-hero-image {
+    position: relative;
+
+    min-height: 570px;
+
+    overflow: hidden;
+}
+
+
+.dance-hero-image::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+}
+
+
+.dance-hero-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.8s ease;
+}
+
+
+.dance-hero:hover .dance-hero-image img {
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   IMAGE BADGE
+========================================================= */
+
+.dance-image-badge {
+    position: absolute;
+
+    right: 25px;
+    bottom: 25px;
+
+    z-index: 3;
+
+    padding: 17px 20px;
+
+    min-width: 155px;
+
+    border-radius: 13px;
+
+    background: rgba(7,29,73,0.90);
+
+    backdrop-filter: blur(8px);
+
+    color: #ffffff;
+}
+
+
+.dance-image-badge strong {
+    display: block;
+
+    color: #ff4d99;
+
+    font-size: 13px;
+
+    letter-spacing: 1.5px;
+}
+
+
+.dance-image-badge span {
+    display: block;
+
+    margin-top: 3px;
+
+    font-size: 12px;
+
+    color: rgba(255,255,255,0.75);
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.dance-intro {
+
+    margin: 65px auto 0;
+
+    position: relative;
+
+    padding-left: 28px;
+}
+
+
+
+.dance-intro p {
+    margin: 0 0 16px;
+
+    color: #111111;
+
+    font-size: 17px;
+
+    line-height: 1.85;
+}
+
+
+/* =========================================================
+   FOCUS SECTION
+========================================================= */
+
+.dance-focus {
+    max-width: 1200px;
+
+    margin: 75px auto 0;
+}
+
+
+.dance-heading {
+    margin-bottom: 28px;
+}
+
+
+.dance-heading span {
+    color: #e51d73;
+
+    font-size: 18px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.dance-heading h3 {
+    margin: 7px 0 0;
+
+    color: #071d49;
+
+    font-size: 32px;
+
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   FOCUS GRID
+========================================================= */
+
+.dance-focus-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 15px;
+}
+
+
+.dance-focus-card {
+    position: relative;
+
+    min-height: 190px;
+
+    padding: 25px 20px;
+
+    border-radius: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid #e8eaf0;
+
+    overflow: hidden;
+
+    transition: 0.35s ease;
+
+    border-color: #ff4d99;
+}
+
+
+/* NUMBER */
+
+.dance-focus-card > span {
+    position: absolute;
+
+    right: 15px;
+    top: 12px;
+
+    color: #edf0f6;
+
+    font-size: 38px;
+
+    font-weight: 900;
+}
+
+
+.dance-focus-card i {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    margin-bottom: 18px;
+
+    border-radius: 11px;
+
+    background: #fff0f6;
+
+    color: #e51d73;
+
+    font-size: 16px;
+}
+
+
+.dance-focus-card h4 {
+    position: relative;
+
+    margin: 0 0 7px;
+
+    color: #071d49;
+
+    font-size: 15px;
+}
+
+
+.dance-focus-card p {
+    position: relative;
+
+    margin: 0;
+
+    color: #000000;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   SCHEDULE
+========================================================= */
+
+.dance-schedule {
+    max-width: 1200px;
+
+    margin: 70px auto 0;
+
+    padding: 42px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 45px;
+
+    align-items: center;
+
+    border-radius: 22px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #071d49,
+            #073b8f
+        );
+}
+
+
+/* =========================================================
+   SCHEDULE LEFT
+========================================================= */
+
+.dance-schedule-left span {
+    color: #ff9ac5;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.dance-schedule-left h3 {
+    margin: 8px 0 12px;
+
+    color: #ffffff;
+
+    font-size: 34px;
+}
+
+
+.dance-schedule-left p {
+    max-width: 500px;
+
+    margin: 0;
+
+    color: rgba(255,255,255,0.76);
+
+    font-size: 15px;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   SCHEDULE RIGHT
+========================================================= */
+
+.dance-schedule-right {
+    display: grid;
+
+    gap: 13px;
+}
+
+
+.dance-day-card {
+    display: flex;
+
+    align-items: center;
+
+    gap: 17px;
+
+    padding: 18px;
+
+    border-radius: 13px;
+
+    background: rgba(255,255,255,0.09);
+
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+
+.dance-day {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 12px;
+
+    background: #e51d73;
+
+    color: #ffffff;
+
+    font-size: 15px;
+
+    font-weight: 800;
+}
+
+
+.dance-day-card small {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #ff9ac5;
+
+    font-size: 15px;
+
+    font-weight: 700;
+}
+
+
+.dance-day-card strong {
+    color: #ffffff;
+
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   ENDING
+========================================================= */
+
+.dance-ending {
+    max-width: 800px;
+
+    margin: 40px auto 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    text-align: center;
+
+    color: #071d49;
+
+    font-size: 15px;
+
+    font-weight: 700;
+}
+
+
+.dance-ending i {
+    color: #e51d73;
+
+    font-size: 18px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 950px) {
+
+    .dance-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .dance-hero-image {
+        min-height: 450px;
+    }
+
+    .dance-focus-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dance-schedule {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .dance-modern {
+        padding: 50px 15px;
+    }
+
+    .dance-hero {
+        border-radius: 18px;
+    }
+
+    .dance-hero-content {
+        padding: 42px 25px;
+    }
+
+    .dance-hero-content h2 {
+        font-size: 52px;
+    }
+
+    .dance-hero-content p {
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+    .dance-hero-image {
+        min-height: 330px;
+    }
+
+    .dance-image-badge {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .dance-intro {
+        margin-top: 45px;
+
+        padding-left: 20px;
+    }
+
+    .dance-intro p {
+        font-size: 16px;
+
+        line-height: 1.75;
+    }
+
+    .dance-focus {
+        margin-top: 55px;
+    }
+
+    .dance-heading h3 {
+        font-size: 27px;
+    }
+
+    .dance-focus-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dance-focus-card {
+        min-height: auto;
+    }
+
+    .dance-schedule {
+        margin-top: 50px;
+
+        padding: 28px 20px;
+
+        border-radius: 17px;
+    }
+
+    .dance-schedule-left h3 {
+        font-size: 28px;
+    }
+
+    .dance-schedule-left p {
+        font-size: 14px;
+    }
+
+    .dance-day-card strong {
+        font-size: 15px;
+    }
+
+    .dance-ending {
+        font-size: 13px;
+
+        line-height: 1.6;
+    }
+
+}
+
+/* =========================================================
+   FOUNDERS' MESSAGE
+   GRAND PREMIUM DESIGN
+========================================================= */
+
+.founders-message {
+    position: relative;
+    width: 100%;
+    padding: 100px 20px;
+    background:
+        radial-gradient(circle at 10% 15%, rgba(24, 72, 130, 0.08), transparent 30%),
+        radial-gradient(circle at 90% 85%, rgba(24, 72, 130, 0.07), transparent 30%),
+        #ffffff;
+    overflow: hidden;
+}
+
+
+/* DECORATIVE BACKGROUND */
+
+.founders-message::before {
+    content: "V";
+    position: absolute;
+    left: -35px;
+    top: 10px;
+
+    font-size: 300px;
+    font-weight: 900;
+    line-height: 1;
+
+    color: rgba(12, 54, 105, 0.035);
+
+    pointer-events: none;
+}
+
+.founders-message::after {
+    content: "";
+    position: absolute;
+    right: -120px;
+    bottom: -120px;
+
+    width: 300px;
+    height: 300px;
+
+    border: 1px solid rgba(12, 54, 105, 0.10);
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 0 35px rgba(12, 54, 105, 0.025),
+        0 0 0 70px rgba(12, 54, 105, 0.018);
+}
+
+
+/* MAIN CONTAINER */
+
+.founders-message-inner {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1050px;
+    margin: auto;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   LABEL
+========================================================= */
+
+.founders-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    margin-bottom: 18px;
+
+    color: #164f89;
+
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.founders-label span {
+    width: 45px;
+    height: 1px;
+    background: #164f89;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.founders-title {
+    margin: 0;
+
+    color: #101820;
+
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 1.15;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.founders-title strong {
+    color: #164f89;
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.founders-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    margin: 25px auto 42px;
+}
+
+.founders-divider::before,
+.founders-divider::after {
+    content: "";
+    width: 75px;
+    height: 1px;
+    background: #d8e0e9;
+}
+
+.founders-divider i {
+    color: #164f89;
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   MESSAGE CONTENT
+========================================================= */
+
+.founders-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+.founders-content p {
+    margin: 0 0 23px;
+
+    color: #111111;
+
+    font-size: 17px;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.founders-content p:last-child {
+    margin-bottom: 0;
+}
+
+.founders-content strong {
+    color: #164f89;
+    font-weight: 700;
+}
+
+
+/* FIRST WELCOME LINE */
+
+.founders-content .founders-welcome {
+    margin-bottom: 28px;
+
+    color: #101820;
+
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.founders-content .founders-welcome strong {
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   SIGNATURE AREA
+========================================================= */
+
+.founders-signature {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.signature-line {
+    width: 90px;
+    height: 2px;
+
+    margin: 0 auto 20px;
+
+    background: #164f89;
+}
+
+.founders-signature h3 {
+    margin: 0;
+
+    color: #111111;
+
+    font-size: 23px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.founders-signature h3 span {
+    padding: 0 6px;
+
+    color: #164f89;
+
+    font-weight: 500;
+}
+
+.founders-signature p {
+    margin: 5px 0 15px;
+
+    color: #687586;
+
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.academy-name {
+    display: inline-block;
+
+    padding: 8px 20px;
+
+    border: 1px solid #dce4ec;
+    border-radius: 30px;
+
+    color: #164f89;
+
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    background: #f8fafc;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .founders-message {
+        padding: 75px 20px;
+    }
+
+    .founders-message::before {
+        font-size: 220px;
+    }
+
+    .founders-title {
+        font-size: 36px;
+    }
+
+    .founders-content p {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+    }
+
+    .founders-content .founders-welcome {
+        font-size: 21px;
+    }
+
+    .founders-signature {
+        margin-top: 45px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .founders-message {
+        padding: 60px 16px;
+    }
+
+    .founders-label {
+        gap: 9px;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .founders-label span {
+        width: 28px;
+    }
+
+    .founders-title {
+        font-size: 30px;
+        letter-spacing: -0.5px;
+    }
+
+    .founders-divider {
+        margin: 20px auto 32px;
+    }
+
+    .founders-divider::before,
+    .founders-divider::after {
+        width: 45px;
+    }
+
+    .founders-content .founders-welcome {
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+
+    .founders-content p {
+        font-size: 15.5px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+    .founders-signature {
+        margin-top: 38px;
+    }
+
+    .founders-signature h3 {
+        font-size: 18px;
+    }
+
+    .founders-signature p {
+        font-size: 12px;
+    }
+
+    .academy-name {
+        font-size: 10px;
+        padding: 7px 15px;
+    }
+}
+
+/* =========================================================
+   VYOMA WHY CHOOSE
+   PROFESSIONAL MODERN DESIGN
+========================================================= */
+
+.vyoma-why-pro {
+    width: 100%;
+    padding: 90px 0;
+
+    background:
+        radial-gradient(
+            circle at 5% 10%,
+            rgba(91, 76, 255, .08),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 95% 90%,
+            rgba(255, 72, 145, .08),
+            transparent 25%
+        ),
+        #f8fafc;
+
+    overflow: hidden;
+}
+
+.vyoma-why-pro-container {
+    width: min(1350px, 92%);
+    margin: auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.why-pro-header {
+    margin-bottom: 55px;
+}
+
+.why-pro-tag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 18px;
+
+    font-size: 18px;
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    color:darkblue;
+}
+
+.why-pro-tag span {
+    width: 32px;
+    height: 3px;
+
+    border-radius: 20px;
+
+    background: #5b4cf6;
+}
+
+.why-pro-heading {
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+
+    gap: 70px;
+
+    align-items: end;
+}
+
+.why-pro-heading h2 {
+    margin: 0;
+
+    font-size: clamp(46px, 5vw, 70px);
+
+    line-height: 1;
+
+    letter-spacing: -2px;
+
+    font-weight: 900;
+
+    color: #101828;
+}
+
+.why-pro-heading h2 strong {
+    display: block;
+
+    color: darkblue;
+}
+
+.why-pro-heading p {
+    margin: 0;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    color: #000000;
+}
+
+
+/* =========================================================
+   INTRO PANEL
+========================================================= */
+
+.why-pro-intro {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 28px;
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 45px rgba(30, 41, 59, .08);
+}
+
+.why-pro-intro-left {
+    position: relative;
+
+    padding: 45px;
+
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #173f91,
+            #5b4cf6
+        );
+
+    overflow: hidden;
+}
+
+.why-pro-intro-left::after {
+    content: "";
+
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+
+    right: -70px;
+    top: -70px;
+
+    border: 35px solid rgba(255,255,255,.10);
+
+    border-radius: 50%;
+}
+
+.pro-circle {
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 35px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.16);
+
+    font-size: 22px;
+}
+
+.why-pro-intro-left > span {
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    opacity: .75;
+}
+
+.why-pro-intro-left h3 {
+    max-width: 500px;
+
+    margin: 15px 0 0;
+
+    font-size: 38px;
+
+    line-height: 1.1;
+
+    font-weight: 800;
+    color: white;
+}
+
+.why-pro-intro-right {
+    padding: 45px;
+
+    background: #ffffff;
+}
+
+.why-pro-intro-right p {
+    margin: 0 0 20px;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    color: #000000;
+}
+
+.why-pro-intro-right p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.why-pro-features {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+.why-pro-feature {
+    position: relative;
+
+    min-height: 365px;
+
+    padding: 30px;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    transition: .35s ease;
+}
+
+.why-pro-feature:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 18px 45px rgba(30,41,59,.12);
+}
+
+
+/* =========================================================
+   FEATURE COLORS
+========================================================= */
+
+.why-pro-feature.blue {
+    background: #e7efff;
+    color: #163c86;
+}
+
+.why-pro-feature.green {
+    background: #e3f8ed;
+    color: #14643d;
+}
+
+.why-pro-feature.pink {
+    background: #ffe6f0;
+    color: #8a234d;
+}
+
+.why-pro-feature.orange {
+    background: #fff0dc;
+    color: #874b0d;
+}
+
+.why-pro-feature.purple {
+    background: #eee7ff;
+    color: #5630a5;
+}
+
+.why-pro-feature.cyan {
+    background: #e1f7fa;
+    color: #126875;
+}
+
+
+/* =========================================================
+   FEATURE TOP
+========================================================= */
+
+.feature-top {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 38px;
+}
+
+.feature-top span {
+    font-size: 13px;
+
+    font-weight: 900;
+
+    opacity: .55;
+}
+
+.feature-top i {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: rgba(255,255,255,.7);
+
+    font-size: 21px;
+}
+
+
+/* =========================================================
+   FEATURE TEXT
+========================================================= */
+
+.why-pro-feature h3 {
+    margin: 0 0 18px;
+
+    font-size: 30px;
+
+    line-height: 1.05;
+
+    font-weight: 900;
+}
+
+.why-pro-feature p {
+    margin: 0;
+
+    font-size: 16px;
+
+    line-height: 1.75;
+
+    color: inherit;
+}
+
+.feature-bottom {
+    position: absolute;
+
+    left: 30px;
+    bottom: 25px;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    opacity: .65;
+}
+
+
+/* =========================================================
+   BOTTOM
+========================================================= */
+
+.why-pro-bottom {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 45px;
+
+    padding: 35px 40px;
+
+    border-radius: 24px;
+
+    background: #101828;
+
+    color: #ffffff;
+}
+
+.why-pro-bottom span {
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    color: #aeb8c8;
+}
+
+.why-pro-bottom h3 {
+    margin: 10px 0 0;
+
+    font-size: 30px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+}
+
+.why-pro-bottom h3 strong {
+    color: #ff4f9a;
+}
+
+.why-pro-arrow {
+    width: 55px;
+    height: 55px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #5b4cf6;
+
+    font-size: 20px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 950px) {
+
+    .why-pro-heading {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .why-pro-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .vyoma-why-pro {
+        padding: 65px 0;
+    }
+
+    .why-pro-heading h2 {
+        font-size: 45px;
+    }
+
+    .why-pro-heading p {
+        font-size: 16px;
+    }
+
+    .why-pro-intro {
+        grid-template-columns: 1fr;
+    }
+
+    .why-pro-intro-left,
+    .why-pro-intro-right {
+        padding: 32px;
+    }
+
+    .why-pro-intro-left h3 {
+        font-size: 30px;
+    }
+
+    .why-pro-intro-right p {
+        font-size: 16px;
+    }
+
+    .why-pro-features {
+        grid-template-columns: 1fr;
+    }
+
+    .why-pro-feature {
+        min-height: 330px;
+    }
+
+    .why-pro-feature h3 {
+        font-size: 28px;
+    }
+
+    .why-pro-feature p {
+        font-size: 16px;
+    }
+
+    .why-pro-bottom {
+        padding: 28px;
+
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .why-pro-bottom h3 {
+        font-size: 24px;
+    }
+
+    .why-pro-arrow {
+        width: 45px;
+        height: 45px;
+    }
+
+}
