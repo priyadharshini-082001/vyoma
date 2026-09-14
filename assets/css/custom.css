@@ -2913,7 +2913,7 @@
     }
 
     .tuition-image {
-        min-height: 300px;
+        min-height: 350px;
         height: 300px;
 
         border-radius: 14px;
@@ -3288,7 +3288,7 @@
 
     border-radius: 10px;
 
-    background: #f7faf8;
+    background: #ffffff;
 
     border: 1px solid #e4ebe6;
     width:auto;
@@ -5067,3 +5067,4 @@
     }
 
 }
+
