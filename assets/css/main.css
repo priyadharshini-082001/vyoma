@@ -5004,12 +5004,14 @@ p {
   }
 }
 
+
 .about-wrapper .about-image-box {
   position: relative;
 }
 .about-wrapper .about-image-box .about-image {
   position: relative;
 }
+
 @media (max-width: 1199px) {
   .about-wrapper .about-image-box .about-image {
     max-width: 600px;

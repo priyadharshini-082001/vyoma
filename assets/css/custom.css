@@ -5068,3 +5068,40 @@
 
 }
 
+.about-image img{
+   width:450px;
+}
+.about-wrapper .about-image-box .about-image img{
+    border-radius: 50px;
+}
+@media (max-width: 768px) {
+
+.about-image img{
+   width:400px;
+}
+
+}
+@media (max-width:425px) {
+
+.about-image img{
+   width:400px;
+}
+
+}
+
+@media (max-width:320px) {
+
+.about-image img{
+   width:350px;
+}
+
+}
+.choose-img-box img{
+     width:400px;
+         border-radius: 50px;
+
+}
+
+.faq-image img{
+       width:300px;
+}
